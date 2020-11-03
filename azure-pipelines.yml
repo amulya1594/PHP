@@ -23,8 +23,5 @@ steps:
     php -version
   displayName: 'Use PHP version $(phpVersion)'
   
-  variables:
-  # the name of the service connection that you created above
-  serviceConnectionToAzure: amulya1594
 
 
