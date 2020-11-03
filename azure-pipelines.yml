@@ -21,5 +21,9 @@ steps:
     sudo update-alternatives --set phar.phar /usr/bin/phar.phar$(phpVersion)
     php -version
   displayName: 'Use PHP version $(phpVersion)'
+  
+  variables:
+  # the name of the service connection that you created above
+  serviceConnectionToAzure: amulya1594
 
 
