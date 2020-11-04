@@ -38,6 +38,7 @@ steps:
     publishLocation: 'Container'
 
 jobs:
+- job: Deployment
 - deployment: VMDeploy
   displayName: web
   pool:
