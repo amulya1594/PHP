@@ -38,5 +38,17 @@ steps:
     publishLocation: 'Container'
 
 
-
+jobs:
+- deployment: VMDeploy
+  displayName: web
+  pool:
+    vmImage: 'Ubuntu-16.04'
+  environment:
+    name: PHP
+    resourceType: VirtualMachine
+  strategy:
+      runOnce:
+        deploy:
+          steps:
+          - script: echo my first deployment
 
