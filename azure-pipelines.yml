@@ -41,7 +41,7 @@ jobs:
 - deployment: VMDeploy
   displayName: web
   environment:
-    name:  <environment name>
+    name:  PHP
     resourceType: VirtualMachine
     tags: web
 
